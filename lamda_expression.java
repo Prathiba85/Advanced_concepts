@@ -11,6 +11,12 @@ public class lamda_expression {
 		//Lamda Expression
 		//al.forEach(x->System.out.println(x));
 		al.forEach(System.out::println);
+		/* Lamda return statement
+		 *  return()->
+    {
+        System.out.println("Hello");
+    };
+		 */
 		
 	}
 

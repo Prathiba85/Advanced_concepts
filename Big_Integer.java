@@ -10,10 +10,15 @@ public class Big_Integer {
 		for(int i=1;i<=n;i++)
 		{
 			B = B.multiply(BigInteger.valueOf(i));
+			
 		}
-		
+	
 		String S = B.toString();
 		System.out.println(S.length());
+		BigInteger x = new BigInteger("3");
+		BigInteger y = new BigInteger("4");
+		
+		System.out.println(y.remainder(x));
 	}
 	
 

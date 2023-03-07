@@ -2,7 +2,7 @@ package Advanced_concepts;
 
 import java.util.Arrays;
 
-public class compare_arrays {
+public class lamda_compare_arrays {
 public static void main (String[] args)
 {
 	String[] a = {"Geeks","for","Geeks"};
@@ -11,11 +11,8 @@ public static void main (String[] args)
 	{
 	System.out.println("Yes");
 	}
-	
-	{
-		System.out.println("No");
-	}
-	
+
+
 
 }
 }
